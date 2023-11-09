@@ -1,7 +1,6 @@
 .pieddepage{
     padding:var(--spacing-lg) 0;
 
-    margin:50px;
 
     background-color:var(--color-tertiary);
 
@@ -13,11 +12,11 @@
 
     li{
         list-style-type: none;
-        /*padding:0 10px;*/
+        padding:0 10px;
     }
 
     ul{
-        display:flex
+        display:flex;
         gap:10px;
     }
 

@@ -1,12 +1,20 @@
 .hero{
     padding-top:var(--spacing-lg);
+    background-color: var(--color-secondary);
 
 
 
     .wrapper{
         display:flex;
         justify-content: space-between;
-        background-color: var(--color-secondary);
+
+        .fontfamily{
+            font-family: var(--font-primary);
+        }
+
+        .fontsecondary{
+            font-family: var(--font-secondary); 
+        }
     }
 
     .hero-content{
@@ -29,12 +37,14 @@
     }
 
     .suptitle{
+        font-size: xx-large;
         font-weight:bold;
     }
 
     .bouton-hero{
-        width:50%;
-        padding:20px 30px;
+        font-size:var(--font-size-button);
+        border: none;
+        padding:10px 25px;
     }
 }
 

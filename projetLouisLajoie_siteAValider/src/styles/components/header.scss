@@ -10,7 +10,6 @@
         text-transform: uppercase;
 
         display:flex;
-        gap:20px;
 
         text-decoration: none;
     }
@@ -26,6 +25,16 @@
         display:flex;
         justify-content: space-between;
         align-items: center;
+
+        img{
+            margin-right: 20px;
+        }
+
+        .hovered:hover{
+            background-color: black;
+            color: white;
+            text-decoration: none;
+        }
     }
 }
 
@@ -37,7 +46,7 @@
         display:block;
     }
 
-    /*display:grid;*/
+    display:grid;
     display:none;
     gap:5px;
 }
